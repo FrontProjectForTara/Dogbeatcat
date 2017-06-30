@@ -1,0 +1,38 @@
+extends ../layout
+
+block content
+    .container
+        .row
+            form.form-horizontal(method="post", action="/admin/movie/new")
+                .form-group
+                    label.col-sm-3.control-label(for="inputTitle") Movie name
+                .col-sm-10
+                    input#inputTitle.form-control(type="text", name="movie[title]")
+                .form-group
+                    label.col-sm-3.control-label(for="inputDirector") Movie name
+                .col-sm-10
+                    input#inputTitle.form-control(type="text", name="movie[director]")
+                .form-group
+                    label.col-sm-3.control-label(for="inputCountry") Movie name
+                .col-sm-10
+                    input#inputTitle.form-control(type="text", name="movie[country]")
+                .form-group
+                    label.col-sm-3.control-label(for="inputLanguage") Movie name
+                .col-sm-10
+                    input#inputTitle.form-control(type="text", name="movie[language]")
+                .form-group
+                    label.col-sm-3.control-label(for="inputOnTime") Movie name
+                .col-sm-10
+                    input#inputTitle.form-control(type="text", name="movie[movieontime]")
+                .form-group
+                    label.col-sm-3.control-label(for="inputSummary") Movie name
+                .col-sm-10
+                    input#inputTitle.form-control(type="text", name="movie[summary]")
+                .form-group
+                    label.col-sm-3.control-label(for="inputPosterLoc") Movie name
+                .col-sm-10
+                    input#inputTitle.form-control(type="text", name="movie[posterloc]")
+                .form-group
+                    label.col-sm-3.control-label(for="inputFlashLoc") Movie name
+                .col-sm-10
+                    input#inputTitle.form-control(type="text", name="movie[flashloc]")
